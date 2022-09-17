@@ -30,6 +30,10 @@ main {
     grid-template-columns: 50% 50%;
 }
 
+picture {
+    margin-bottom: -4px;
+}
+
 .imagem {
     width: 100%;
     height: 90vh;
