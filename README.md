@@ -1,4 +1,4 @@
 # componente-de-cartao
-Desafio FrontEnd Mentor
+Desafio  Front-End Mentor
 
-<img source= "https://github.com/helderruiz/componente-de-cartao/blob/main/design/desktop-preview.jpg"></img>
+<img src = "https://github.com/helderruiz/componente-de-cartao/blob/main/design/desktop-preview.jpg" > </img>
