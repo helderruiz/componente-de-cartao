@@ -97,7 +97,61 @@ main {
     cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
-    
+@media screen and (max-width: 426px) {
+    main {
+        margin: 1.5em 1em;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 92vw;
+        height: 90vh;
+    }
+
+    picture {
+        margin-bottom: -5px;
+    }
+
+    .imagem {
+        width: 92vw;
+        height: 40vh;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .descricao {
+        justify-content: flex-start; 
+        gap: 1em;
+        background-color: var(--branco);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .descricao__titulo-principal {
+        font-size: 2.1em;
+    }
+
+    .descricao__paragrafo {
+        font-size: 1em;
+        line-height: 1.8em;
+        color: var(--azul-cinza);
+    }
+
+    .preco__atual {
+        font-size: 2.3em;
+        color: var(--verde);
+        display: flex;
+        align-items: center;
+    }
+
+    .preco__atual 
+    .preco__desconto {
+        font-size: .4em;
+    }
+
 }
 
